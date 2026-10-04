@@ -110,6 +110,37 @@ Learn what a blockchain does and what it doesn't do before you write code.
 | DePIN | [DePIN](https://blockchainlab.com/learn/concepts/depin?utm_source=github&utm_medium=readme&utm_campaign=blockchain-dev-roadmap) |
 | Validators | [validator](https://blockchainlab.com/learn/concepts/validator?utm_source=github&utm_medium=readme&utm_campaign=blockchain-dev-roadmap) · [slashing](https://blockchainlab.com/learn/concepts/slashing?utm_source=github&utm_medium=readme&utm_campaign=blockchain-dev-roadmap) |
 
+<!-- blocks:start -->
+## Use as a building block
+
+> **For AI agents and builders:** read [`AGENTS.md`](AGENTS.md) (setup, commands, structure, rules), [`llms.txt`](llms.txt) (doc map) and the machine-readable [`blocks.json`](blocks.json) ([schema](https://github.com/Blockchains/.github/blob/main/docs/BLOCKS-SCHEMA.md)). How all Blockchains blocks fit together: **[Build with Blocks](https://github.com/Blockchains/.github/blob/main/docs/BUILD-WITH-BLOCKS.md)** · org catalogue: [https://blockchains.github.io/blocks.json](https://blockchains.github.io/blocks.json).
+
+**What it exports**
+
+| Export | Type | Install / access |
+|---|---|---|
+| `README.md` | file | `https://raw.githubusercontent.com/Blockchains/blockchain-dev-roadmap/main/README.md` |
+
+**Minimal example**
+
+```bash
+curl -s https://raw.githubusercontent.com/Blockchains/blockchain-dev-roadmap/main/README.md | grep '^## Stage'
+```
+
+**Inputs → outputs**
+
+- In: none
+- Out: `stages` (Markdown) each item links to a lab, a tool or a Blockchain Lab explainer
+
+**Composes with**
+
+- [Blockchains/blockchainlab-labs](https://github.com/Blockchains/blockchainlab-labs): hands-on labs linked from each item
+- [Blockchains/blockchainlab-tools](https://github.com/Blockchains/blockchainlab-tools): tools linked from each item
+- [Blockchains/blockchain-interview-questions](https://github.com/Blockchains/blockchain-interview-questions): companion guide
+
+**Versioning & stability:** `stable`. Content is revised in place; headings/anchors are kept stable so deep links keep working.
+<!-- blocks:end -->
+
 ## Contributing
 
 PRs welcome. Rule of the repo: **every resource must be free to access, primary or clearly best-in-class, and must pass the link checker.**
