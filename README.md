@@ -114,5 +114,13 @@ Learn what a blockchain does and what it doesn't do before you write code.
 
 PRs welcome. Rule of the repo: **every resource must be free to access, primary or clearly best-in-class, and must pass the link checker.**
 
+## Licence
+
+Text CC BY 4.0 (attribute Blockchain Lab), code MIT. See [LICENSE](LICENSE).
+
+## Contributing
+
+Issues and pull requests are welcome. Please read the [contributing guide](https://github.com/Blockchains/.github/blob/main/CONTRIBUTING.md), [code of conduct](https://github.com/Blockchains/.github/blob/main/CODE_OF_CONDUCT.md) and [security policy](https://github.com/Blockchains/.github/blob/main/SECURITY.md) first.
+
 ---
 Built by Blockchain Lab — [blockchainlab.com](https://blockchainlab.com/?utm_source=github&utm_medium=readme&utm_campaign=blockchain-dev-roadmap) · More paths: [Learning paths](https://blockchainlab.com/learn/learning-paths?utm_source=github&utm_medium=readme&utm_campaign=blockchain-dev-roadmap)
